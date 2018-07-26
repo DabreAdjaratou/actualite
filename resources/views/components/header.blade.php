@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet"> 
-	<link rel="stylesheet" href="uikit/css/uikit.css" />
-	<link rel="stylesheet" href="uikit/css/app.css">
-
-	<script src="uikit/js/uikit.min.js"></script>
-	<script src="uikit/js/uikit-icons.js"></script> 
-	<title>Categies</title>
-
-</head>
-<body>
-<head>
+<header>
 	
 	<nav class="uk-navbar-container" uk-navbar>
 
@@ -56,12 +41,4 @@
     </div>
 
 </nav>
-</head>
-<main></main>
-<footer></footer>
-
-<div class="uk-container uk-container-center">
-	
-</div>
-</body>
-</html>
+</header>

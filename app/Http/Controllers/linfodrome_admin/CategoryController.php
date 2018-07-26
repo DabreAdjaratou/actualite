@@ -19,7 +19,7 @@ class CategoryController extends Controller
        
 
 
-        return view('linfodrome_admin.index',['categories'=>$categories]);
+        return view('linfodrome_admin.category.index',['categories'=>$categories]);
     }
 
     /**

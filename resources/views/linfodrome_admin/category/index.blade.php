@@ -1,10 +1,9 @@
 @extends('master')
-
-@section('title', 'Categories') 
+<!-- @section('title', 'Categories') -->
 
 @section('content')
 <div class="uk-container uk-container-large">
-<table id="example" >
+<table id="example" class="uk-table uk-table-hover uk-table-striped" style="width:100%">
 	<thead>
 		<tr>
 			<th>ID</th>
@@ -15,22 +14,21 @@
 		</tr>
 	</thead>
 	<tbody>
-	@foreach ($categories as $category)
-				<tr>
-					
-					<td>{{$category->id}}</td>
-					<td>{{$category->name}}</td>
-					<td><{{$category->created_at}}</td>
-					<td>{{$category->updated_at}}</td>
-					<td><a href="">edit</a></td>
-					
-					
-				</tr>
-				@endforeach
-		
-		</tbody>
+		@foreach ($categories as $category)
+		<tr>
+			
+			<td>{{$category->id}}</td>
+			<td>{{$category->name}}</td>
+			<td><{{$category->created_at}}</td>
+			<td>{{$category->updated_at}}</td>
+			<td><a href="">edit</a></td>
+			
+			
+		</tr>
+		@endforeach
+	
+		<tbody>
 		</table>
-		</div>
 		@endsection
 
 		@section('js')
@@ -50,3 +48,4 @@
 			});
 		</script>
 		@endsection
+		</div>
